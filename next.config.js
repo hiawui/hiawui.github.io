@@ -5,8 +5,8 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-  basePath: process.env.NODE_ENV === 'production' ? '/hiawui.github.io' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/hiawui.github.io/' : '',
+  // Remove basePath and assetPrefix for GitHub Pages deployment
+  // GitHub Pages automatically handles the repository name as base path
 }
 
 module.exports = nextConfig 
